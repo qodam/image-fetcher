@@ -1,6 +1,6 @@
-# Random Tree Images API
+# Random Images API
 
-A simple Python project to fetch random tree images from Pexels and Unsplash APIs.
+A simple Python project to fetch random images from Pexels and Unsplash APIs.
 
 ## 📋 Prerequisites
 
@@ -12,8 +12,8 @@ A simple Python project to fetch random tree images from Pexels and Unsplash API
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/qodam/random-tree-images.git
-cd random-tree-images
+git clone https://github.com/qodam/image-fetcher.git
+cd image-fetcher
 ```
 
 2. Install dependencies:
@@ -35,18 +35,18 @@ cp config.example.py config.py
 ### With Pexels
 
 ```python
-from pexels_image import get_random_tree_image_pexels
+from pexels_image import get_random_image_pexels
 
-image_url = get_random_tree_image_pexels()
+image_url = get_random_image_pexels()
 print(f"Image URL: {image_url}")
 ```
 
 ### With Unsplash
 
 ```python
-from unsplash_image import get_random_tree_image
+from unsplash_image import get_random_image
 
-image_url = get_random_tree_image()
+image_url = get_random_image()
 print(f"Image URL: {image_url}")
 ```
 
@@ -82,7 +82,7 @@ Both APIs offer free tiers:
 
 - **Dimensions**: 720x1280 pixels (portrait orientation)
 - **Format**: JPEG/PNG
-- **Query**: Oak trees and general tree images
+- **Query**: Oak trees and general images
 
 ## 🛡️ Error Handling
 
